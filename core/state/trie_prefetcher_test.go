@@ -20,14 +20,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/testrand"
-	"github.com/ethereum/go-ethereum/triedb"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/internal/testrand"
+	"github.com/medisco/opgeth/triedb"
 )
 
 func filledStateDB() *StateDB {

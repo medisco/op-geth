@@ -20,11 +20,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

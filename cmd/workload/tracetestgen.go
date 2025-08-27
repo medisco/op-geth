@@ -26,12 +26,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/eth/tracers"
+	"github.com/medisco/opgeth/eth/tracers/logger"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/log"
 	"github.com/urfave/cli/v2"
 )
 

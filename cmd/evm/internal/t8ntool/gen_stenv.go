@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/math"
+	"github.com/medisco/opgeth/core/types"
 )
 
 var _ = (*stEnvMarshaling)(nil)

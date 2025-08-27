@@ -21,10 +21,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/event"
+	"github.com/medisco/opgeth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current

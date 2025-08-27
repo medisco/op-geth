@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/math"
+	"github.com/medisco/opgeth/params"
 )
 
 // memoryGasCost calculates the quadratic gas for memory expansion. It does so

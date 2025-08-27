@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/abigen"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/accounts/abi/abigen"
+	"github.com/medisco/opgeth/cmd/utils"
+	"github.com/medisco/opgeth/common/compiler"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/log"
 	"github.com/urfave/cli/v2"
 )
 

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/superchain"
+	"github.com/medisco/opgeth/superchain"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/params"
 )
 
 func LoadOPStackGenesis(chainID uint64) (*Genesis, error) {

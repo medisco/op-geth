@@ -24,11 +24,11 @@ import (
 	"strings"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/medisco/opgeth/internal/ethapi"
+	"github.com/medisco/opgeth/internal/jsre/deps"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/signer/core"
+	"github.com/medisco/opgeth/signer/storage"
 )
 
 // consoleOutput is an override for the console.log and console.error methods to

@@ -24,9 +24,9 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/ethdb"
 )
 
 // stateIdent represents the identifier of a state element, which can be

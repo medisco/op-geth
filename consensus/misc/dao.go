@@ -21,10 +21,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/params"
 )
 
 var (

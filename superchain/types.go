@@ -1,7 +1,7 @@
 package superchain
 
 import (
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/medisco/opgeth/common"
 )
 
 type ChainConfig struct {

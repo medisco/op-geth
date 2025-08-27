@@ -23,11 +23,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/trie/trienode"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/trie/trienode"
 )
 
 func newEmptySecure() *StateTrie {

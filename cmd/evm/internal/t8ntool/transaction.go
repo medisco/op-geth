@@ -24,13 +24,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/tests"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/tests"
 	"github.com/urfave/cli/v2"
 )
 

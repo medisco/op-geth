@@ -31,23 +31,23 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/beacon"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/core/vm/program"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/consensus"
+	"github.com/medisco/opgeth/consensus/beacon"
+	"github.com/medisco/opgeth/consensus/ethash"
+	"github.com/medisco/opgeth/core/history"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/core/vm/program"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/eth/tracers/logger"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/ethdb/pebble"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/trie"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -1528,7 +1528,7 @@ func testEIP161AccountRemoval(t *testing.T, scheme string) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ethereum/go-ethereum/pull/15941
+// https://github.com/medisco/opgeth/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.HashScheme)
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.PathScheme)
@@ -1744,8 +1744,8 @@ func testBlockchainRecovery(t *testing.T, scheme string) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/ethereum/go-ethereum/issues/18977
-//   - https://github.com/ethereum/go-ethereum/pull/18988
+//   - https://github.com/medisco/opgeth/issues/18977
+//   - https://github.com/medisco/opgeth/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	testLowDiffLongChain(t, rawdb.HashScheme)
 	testLowDiffLongChain(t, rawdb.PathScheme)

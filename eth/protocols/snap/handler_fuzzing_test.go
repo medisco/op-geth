@@ -24,16 +24,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
 	fuzz "github.com/google/gofuzz"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/consensus/ethash"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/p2p"
+	"github.com/medisco/opgeth/p2p/enode"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
 )
 
 func FuzzARange(f *testing.F) {

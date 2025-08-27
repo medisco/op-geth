@@ -21,10 +21,10 @@ import (
 	"errors"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

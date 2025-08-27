@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/internal/debug"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p"
+	"github.com/medisco/opgeth/p2p/discover"
+	"github.com/medisco/opgeth/p2p/enode"
+	"github.com/medisco/opgeth/rpc"
 )
 
 // apis returns the collection of built-in RPC APIs.

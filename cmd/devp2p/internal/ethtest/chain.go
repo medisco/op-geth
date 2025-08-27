@@ -31,16 +31,16 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/forkid"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/eth/protocols/eth"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
 )
 
 // Chain is a lightweight blockchain-like store which can read a hivechain

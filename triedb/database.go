@@ -19,14 +19,14 @@ package triedb
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/triedb/database"
-	"github.com/ethereum/go-ethereum/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/trie/trienode"
+	"github.com/medisco/opgeth/triedb/database"
+	"github.com/medisco/opgeth/triedb/hashdb"
+	"github.com/medisco/opgeth/triedb/pathdb"
 )
 
 // Config defines all necessary options for database.

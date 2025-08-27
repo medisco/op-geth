@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/params"
 )
 
 func TestEnsureCreate2Deployer(t *testing.T) {

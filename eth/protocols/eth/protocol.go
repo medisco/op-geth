@@ -22,10 +22,10 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/forkid"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/rlp"
 )
 
 // Constants to match up protocol versions and messages

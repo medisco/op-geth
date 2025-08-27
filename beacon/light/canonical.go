@@ -20,10 +20,10 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common/lru"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/rlp"
 )
 
 // canonicalStore stores instances of the given type in a database and caches

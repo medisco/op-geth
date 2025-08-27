@@ -19,10 +19,10 @@ package main
 import (
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/cmd/devp2p/internal/v4test"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/internal/utesting"
+	"github.com/medisco/opgeth/log"
 	"github.com/urfave/cli/v2"
 )
 

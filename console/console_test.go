@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/console/prompt"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/eth"
+	"github.com/medisco/opgeth/eth/ethconfig"
+	"github.com/medisco/opgeth/internal/jsre"
+	"github.com/medisco/opgeth/miner"
+	"github.com/medisco/opgeth/node"
 )
 
 const (

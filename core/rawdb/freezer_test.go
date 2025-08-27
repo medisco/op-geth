@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/rawdb/ancienttest"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/core/rawdb/ancienttest"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/rlp"
 	"github.com/stretchr/testify/require"
 )
 

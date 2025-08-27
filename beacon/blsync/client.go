@@ -17,18 +17,18 @@
 package blsync
 
 import (
-	"github.com/ethereum/go-ethereum/beacon/light"
-	"github.com/ethereum/go-ethereum/beacon/light/api"
-	"github.com/ethereum/go-ethereum/beacon/light/request"
-	"github.com/ethereum/go-ethereum/beacon/light/sync"
-	"github.com/ethereum/go-ethereum/beacon/params"
-	"github.com/ethereum/go-ethereum/beacon/types"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/beacon/light"
+	"github.com/medisco/opgeth/beacon/light/api"
+	"github.com/medisco/opgeth/beacon/light/request"
+	"github.com/medisco/opgeth/beacon/light/sync"
+	"github.com/medisco/opgeth/beacon/params"
+	"github.com/medisco/opgeth/beacon/types"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/mclock"
+	"github.com/medisco/opgeth/ethdb/memorydb"
+	"github.com/medisco/opgeth/event"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/rpc"
 )
 
 type Client struct {

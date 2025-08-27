@@ -22,14 +22,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/utils"
-	"github.com/ethereum/go-ethereum/triedb/database"
 	"github.com/ethereum/go-verkle"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/trie/trienode"
+	"github.com/medisco/opgeth/trie/utils"
+	"github.com/medisco/opgeth/triedb/database"
 )
 
 var (

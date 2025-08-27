@@ -20,9 +20,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie/utils"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/trie/utils"
 )
 
 var (

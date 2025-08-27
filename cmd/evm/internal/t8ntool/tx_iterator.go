@@ -25,12 +25,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
 )
 
 // txWithKey is a helper-struct, to allow us to use the types.Transaction along with

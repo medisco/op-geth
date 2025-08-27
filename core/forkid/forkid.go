@@ -27,9 +27,9 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
 )
 
 var (

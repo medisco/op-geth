@@ -22,7 +22,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/medisco/opgeth/common"
 )
 
 func TestEncode(t *testing.T) {

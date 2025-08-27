@@ -23,11 +23,11 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/ethdb/memorydb"
+	"github.com/medisco/opgeth/log"
 )
 
 const (

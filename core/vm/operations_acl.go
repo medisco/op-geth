@@ -19,11 +19,11 @@ package vm
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/math"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/params"
 )
 
 func makeGasSStoreFunc(clearingRefund uint64) gasFunc {

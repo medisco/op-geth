@@ -24,17 +24,17 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/eth/tracers/internal"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/accounts/abi"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/eth/tracers"
+	"github.com/medisco/opgeth/eth/tracers/internal"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
 )
 
 //go:generate go run github.com/fjl/gencodec -type callFrameWithOpcodes -field-override callFrameWithOpcodesMarshaling -out gen_callframewithopcodes_json.go

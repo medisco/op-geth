@@ -22,9 +22,9 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params/forks"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params/forks"
 )
 
 // Genesis hashes to enforce below configs on.

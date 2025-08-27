@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/params"
 )
 
 type dummyStatedb struct {
@@ -63,7 +63,7 @@ func TestStoreCapture(t *testing.T) {
 }
 
 // Tests that blank fields don't appear in logs when JSON marshalled, to reduce
-// logs bloat and confusion. See https://github.com/ethereum/go-ethereum/issues/24487
+// logs bloat and confusion. See https://github.com/medisco/opgeth/issues/24487
 func TestStructLogMarshalingOmitEmpty(t *testing.T) {
 	tests := []struct {
 		name string

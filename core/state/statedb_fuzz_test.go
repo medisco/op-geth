@@ -29,17 +29,17 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state/snapshot"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
-	"github.com/ethereum/go-ethereum/triedb"
-	"github.com/ethereum/go-ethereum/triedb/pathdb"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/state/snapshot"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/trie"
+	"github.com/medisco/opgeth/triedb"
+	"github.com/medisco/opgeth/triedb/pathdb"
 )
 
 // A stateTest checks that the state changes are correctly captured. Instances

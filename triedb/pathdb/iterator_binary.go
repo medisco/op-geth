@@ -19,7 +19,7 @@ package pathdb
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/medisco/opgeth/common"
 )
 
 // binaryIterator is a simplistic iterator to step over the accounts or storage

@@ -28,9 +28,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/cmd/evm/internal/t8ntool"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/internal/reexec"
+	"github.com/medisco/opgeth/cmd/evm/internal/t8ntool"
+	"github.com/medisco/opgeth/internal/cmdtest"
+	"github.com/medisco/opgeth/internal/reexec"
 )
 
 func TestMain(m *testing.M) {

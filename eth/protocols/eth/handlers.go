@@ -22,13 +22,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/tracker"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p/tracker"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/trie"
 )
 
 // requestTracker is a singleton tracker for eth/66 and newer request times.

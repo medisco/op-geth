@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/consensus/ethash"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

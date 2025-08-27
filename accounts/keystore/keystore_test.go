@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/medisco/opgeth/accounts"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/event"
 )
 
 var testSigData = make([]byte, 32)

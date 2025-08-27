@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/medisco/opgeth/accounts/keystore"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
 )
 
 // Tests that the account management snippets work correctly.

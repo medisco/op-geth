@@ -35,9 +35,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/hashicorp/go-bexpr"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/log"
 )
 
 // Handler is the global debugging handler.

@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/forkid"
+	"github.com/medisco/opgeth/metrics"
+	"github.com/medisco/opgeth/p2p"
 )
 
 const (

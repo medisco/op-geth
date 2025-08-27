@@ -19,8 +19,8 @@ package history
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/params"
 )
 
 // HistoryMode configures history pruning.

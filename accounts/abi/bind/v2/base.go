@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
+	"github.com/medisco/opgeth"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/medisco/opgeth/accounts/abi"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/event"
 )
 
 const basefeeWiggleMultiplier = 2

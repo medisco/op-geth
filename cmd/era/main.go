@@ -27,14 +27,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/eth"
+	"github.com/medisco/opgeth/internal/era"
+	"github.com/medisco/opgeth/internal/ethapi"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/trie"
 	"github.com/urfave/cli/v2"
 )
 

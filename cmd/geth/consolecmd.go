@@ -21,8 +21,8 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
+	"github.com/medisco/opgeth/cmd/utils"
+	"github.com/medisco/opgeth/console"
 	"github.com/urfave/cli/v2"
 )
 

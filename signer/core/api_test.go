@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/medisco/opgeth/accounts"
+	"github.com/medisco/opgeth/accounts/keystore"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/internal/ethapi"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/signer/core"
+	"github.com/medisco/opgeth/signer/core/apitypes"
+	"github.com/medisco/opgeth/signer/fourbyte"
+	"github.com/medisco/opgeth/signer/storage"
 )
 
 // Used for testing

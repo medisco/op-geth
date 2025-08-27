@@ -27,16 +27,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/consensus/misc/eip1559"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/eth/filters"
+	"github.com/medisco/opgeth/internal/ethapi"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/rpc"
 )
 
 var (

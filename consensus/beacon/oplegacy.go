@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/consensus"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/core/vm"
 )
 
 type OpLegacy struct{}

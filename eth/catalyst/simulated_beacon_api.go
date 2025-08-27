@@ -19,9 +19,9 @@ package catalyst
 import (
 	"context"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/types"
 )
 
 // simulatedBeaconAPI provides a RPC API for SimulatedBeacon.

@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/forkid"
+	"github.com/medisco/opgeth/p2p/enr"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

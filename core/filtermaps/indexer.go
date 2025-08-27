@@ -21,8 +21,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/log"
 )
 
 const (

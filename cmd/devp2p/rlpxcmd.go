@@ -21,12 +21,12 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/cmd/devp2p/internal/ethtest"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/p2p"
+	"github.com/medisco/opgeth/p2p/enode"
+	"github.com/medisco/opgeth/p2p/rlpx"
+	"github.com/medisco/opgeth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

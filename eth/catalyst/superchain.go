@@ -3,9 +3,9 @@ package catalyst
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/metrics"
+	"github.com/medisco/opgeth/params"
 )
 
 var (

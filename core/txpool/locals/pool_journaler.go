@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/txpool"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/core/txpool"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/log"
 )
 
 // A PoolJournaler periodically journales a transaction pool to disk.

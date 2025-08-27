@@ -25,10 +25,10 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/internal/era"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/common/lru"
+	"github.com/medisco/opgeth/internal/era"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/rlp"
 )
 
 const openFileLimit = 64

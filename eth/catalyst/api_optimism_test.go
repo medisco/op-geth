@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/beacon/engine"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/beacon/engine"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/params"
 	"github.com/stretchr/testify/require"
 )
 

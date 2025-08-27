@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/log"
 )
 
 // ReadStateHistoryIndexMetadata retrieves the metadata of state history index.

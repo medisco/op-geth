@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/pebble"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/consensus"
+	"github.com/medisco/opgeth/consensus/ethash"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/ethdb/pebble"
+	"github.com/medisco/opgeth/params"
 )
 
 // snapshotTestBasic wraps the common testing fields in the snapshot tests.

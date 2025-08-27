@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/medisco/opgeth/common"
 	"github.com/naoina/toml"
 )
 

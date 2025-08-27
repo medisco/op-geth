@@ -19,13 +19,13 @@ package vm
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/tracing"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 	"github.com/holiman/uint256"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/math"
+	"github.com/medisco/opgeth/core/tracing"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
 )
 
 // PrecompileOverrides is a function that can be used to override the default precompiled contracts

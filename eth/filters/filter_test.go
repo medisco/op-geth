@@ -24,17 +24,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/filtermaps"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/triedb"
+	"github.com/medisco/opgeth/accounts/abi"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/consensus/ethash"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/filtermaps"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rpc"
+	"github.com/medisco/opgeth/triedb"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

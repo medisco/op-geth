@@ -22,13 +22,13 @@ import (
 	"os"
 	"slices"
 
-	"github.com/ethereum/go-ethereum/beacon/blsync"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/beacon/blsync"
+	"github.com/medisco/opgeth/cmd/utils"
+	"github.com/medisco/opgeth/internal/debug"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/node"
+	"github.com/medisco/opgeth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

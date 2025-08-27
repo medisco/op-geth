@@ -17,11 +17,11 @@
 package state
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/trie"
 )
 
 // NewStateSync creates a new state trie download scheduler.

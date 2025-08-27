@@ -22,12 +22,12 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/history"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/core/history"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/internal/utesting"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

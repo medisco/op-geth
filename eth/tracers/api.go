@@ -28,22 +28,22 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/internal/ethapi/override"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/consensus"
+	"github.com/medisco/opgeth/core"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/core/state"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/core/vm"
+	"github.com/medisco/opgeth/eth/tracers/logger"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/internal/ethapi"
+	"github.com/medisco/opgeth/internal/ethapi/override"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rlp"
+	"github.com/medisco/opgeth/rpc"
 )
 
 const (
@@ -706,7 +706,7 @@ func (api *API) traceBlockParallel(ctx context.Context, block *types.Block, stat
 				// Reconstruct the block context for each transaction
 				// as the GetHash function of BlockContext is not safe for
 				// concurrent use.
-				// See: https://github.com/ethereum/go-ethereum/issues/29114
+				// See: https://github.com/medisco/opgeth/issues/29114
 				blockCtx := core.NewEVMBlockContext(block.Header(), api.chainContext(ctx), nil, api.backend.ChainConfig(), task.statedb)
 				res, err := api.traceTx(ctx, txs[task.index], msg, txctx, blockCtx, task.statedb, config, nil)
 				if err != nil {

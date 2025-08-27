@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p/enr"
+	"github.com/medisco/opgeth/p2p/netutil"
 )
 
 const (

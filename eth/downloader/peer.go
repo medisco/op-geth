@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/msgrate"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/eth/protocols/eth"
+	"github.com/medisco/opgeth/event"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p/msgrate"
 )
 
 const (

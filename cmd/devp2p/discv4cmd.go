@@ -26,14 +26,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/v4test"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/medisco/opgeth/cmd/devp2p/internal/v4test"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p/discover"
+	"github.com/medisco/opgeth/p2p/enode"
+	"github.com/medisco/opgeth/params"
+	"github.com/medisco/opgeth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

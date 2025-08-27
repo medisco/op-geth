@@ -29,17 +29,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gofrs/flock"
+	"github.com/medisco/opgeth/accounts"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/core/rawdb"
+	"github.com/medisco/opgeth/ethdb"
+	"github.com/medisco/opgeth/ethdb/memorydb"
+	"github.com/medisco/opgeth/event"
+	"github.com/medisco/opgeth/log"
+	"github.com/medisco/opgeth/p2p"
+	"github.com/medisco/opgeth/rpc"
 )
 
 // Node is a container on which services can be registered.

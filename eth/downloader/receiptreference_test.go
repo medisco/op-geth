@@ -3,8 +3,8 @@ package downloader
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/medisco/opgeth/core/types"
+	"github.com/medisco/opgeth/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

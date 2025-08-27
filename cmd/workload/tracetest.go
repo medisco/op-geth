@@ -23,11 +23,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/crypto"
+	"github.com/medisco/opgeth/eth/tracers"
+	"github.com/medisco/opgeth/internal/utesting"
+	"github.com/medisco/opgeth/log"
 	"github.com/urfave/cli/v2"
 )
 

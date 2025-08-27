@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/medisco/opgeth/eth/ethconfig"
+	"github.com/medisco/opgeth/node"
+	"github.com/medisco/opgeth/params"
 )
 
 func TestSignalSuperchainV1(t *testing.T) {

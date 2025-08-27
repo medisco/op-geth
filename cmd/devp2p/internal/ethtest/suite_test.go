@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/catalyst"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/utesting"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
+	"github.com/medisco/opgeth/common"
+	"github.com/medisco/opgeth/common/hexutil"
+	"github.com/medisco/opgeth/eth"
+	"github.com/medisco/opgeth/eth/catalyst"
+	"github.com/medisco/opgeth/eth/ethconfig"
+	"github.com/medisco/opgeth/internal/utesting"
+	"github.com/medisco/opgeth/node"
+	"github.com/medisco/opgeth/p2p"
 )
 
 func makeJWTSecret(t *testing.T) (string, [32]byte, error) {

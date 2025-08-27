@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/internal/flags"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/medisco/opgeth/internal/debug"
+	"github.com/medisco/opgeth/internal/flags"
+	"github.com/medisco/opgeth/p2p/enode"
 	"github.com/urfave/cli/v2"
 )
 
